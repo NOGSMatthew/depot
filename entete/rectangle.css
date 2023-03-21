@@ -1,0 +1,45 @@
+
+#rectangle{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  
+}
+.form-contact{
+    display:grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+.y{
+    grid-column-start: 3;
+}
+
+.inscription_formulaire{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#contact{
+    color: white;
+    font-family: cursive;
+    font-size: 35px;
+}
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+form {
+    display: inline-block; 
+}
+
+
+.form_page{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: auto auto auto;
+    
+}

@@ -1,0 +1,122 @@
+* {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    background-color:  #333; 
+    color: white;
+    float: right;
+    padding-left: 100%; 
+}
+
+.login nav{
+    display: flex;
+    gap: 25px;
+}
+
+.login li{
+    list-style: none;
+    font-family: cursive;
+}
+
+.login ul {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.login:hover::before{
+    scale: 1;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    margin-right: 10px;
+    padding-right: 10px;
+    text-indent: 6px;
+}
+
+#logo img{
+    height: 300px;
+}
+
+#menu{
+    color: #333;
+    
+}
+
+#menu nav{
+    display: flex;
+    margin: 0;
+    
+}
+
+#menu ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%);
+    font-size: 25px;
+    margin-top: -13%;
+}
+
+#menu a:hover{
+    color: red;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    display: inline-block;
+    position: relative;
+
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+
+nav > ul > li > div {
+    flex-direction: column;
+    position: absolute;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    background-color: #333 ;
+    display: none;
+}
+
+nav > ul > li > div > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > ul > li:hover div {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+

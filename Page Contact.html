@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="/css/Contact.css">
+    <style>
+    
+        form {
+ 
+  margin: 0 auto;
+  width: 800px;
+
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+
+  height: 8em;
+}
+
+.button {
+
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+
+</style>
+
+</head>
+<body>
+    <div>
+    <center><h2>Nous Contacter</h2></center>
+        </div>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        
+        <div>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </form>
+    <h2>Information de l' Entreprise :</h2>
+    <ul>
+        <li>Nom : MonPanier</li>
+        <li>Adresse : 376 Av. des Lumières, 82300 Monteils </li>
+        <li>Télephone : 0643760622</li>
+        <li>Email : MonPanier@gmail.com</li>
+      </ul>
+     <div class="map"> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2862.307429530886!2d1.551082215389867!3d44.15952272756015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ac422a1fd0015b%3A0x94d0993067638d11!2sLyc%C3%A9e%20Polyvalent%20Claude%20Nougaro!5e0!3m2!1sfr!2sfr!4v1678782193324!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   
+    
+    
+        
+    
+</body>
+</html>
