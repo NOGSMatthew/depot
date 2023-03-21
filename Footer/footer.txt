@@ -1,0 +1,11 @@
+
+<div class="footer">
+<div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+	   <h3 > <br>� Mon_Panier 2023 Created by <br> -MATTHEW.FERNANDES <br> -YANIS.AKHMOUCH <br> -ANTHONY.GUILLAUMA <br> -LENNY.BLEE</h3>
+</div>
+</div>
+</div>
+</div>
